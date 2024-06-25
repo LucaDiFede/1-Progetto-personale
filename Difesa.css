@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.body {
+    color: white;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.everything {
+    width: 100%;
+}
+
+header {
+    height: 50px;
+}
+
+.Logo {
+    width: 85%;
+    background-color: black;
+    height: 50px;
+    display: flex;
+}
+
+.Logo > div {
+    padding-left: 50px;
+}
+
+.Logo > a > img:hover {
+    cursor: pointer;
+}
+
+.icons {
+    width: 15%;
+    height: 35px;
+    padding-top: 15px;
+    background-color: black;
+    padding-left: 50px;
+    margin-right: 20px;
+}
+
+.fa-user {
+    margin-left: 10px;
+}
+
+.Logo > a > img {
+    width: 150px;
+    height: 50px;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    margin-left: 200px;
+}
+
+input {
+    font-size: 1rem;
+}
+
+.user-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.cards {
+    display: flex;
+    padding: .5rem;
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 100px;
+    height: 190px;
+}
+
+.card {
+    border: 1px solid white;
+    background-image: url(https://thumbs.dreamstime.com/b/serious-young-man-21070879.jpg);
+    background-size: contain;
+    width: 150px;
+    height: 190px;
+}
+
+.info-cards {
+    background-color: blue;
+    width: 320px;
+    padding: 15px;
+}
+
+.card > header {
+    margin-bottom: .25rem;
+}
+
+.card > .body {
+    font-size: .8rem;
+    color: grey;
+}
+
+.hide {
+    display: none;
+}
+
+.flex {
+    display: inline-block;
+}
+
+.carousel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.barra {
+    margin-top: 100px;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.slide > img {
+    display: block;
+    width: 900px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide > img {
+    display: block;
+    width: 900px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide > img:hover {
+    width: 700px;
+    height: 450px;
+    padding-left: 100px;
+    padding-top: 90px;
+    transition: 2s;
+}
+
+.slide[data-active] {
+    opacity: 1;
+}
+
+.carousel-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+}
+
+.carousel-button.prev {
+    left: 160px;
+}
+
+.carousel-button.next {
+    right: 490px;
+}
+
+.Ultimo {
+    display: flex;
+    margin-top: 30px;
+}
+
+.Ultimo-Scritta {
+    margin-left: 100px;
+}
+
+.Grey {
+    background-color: rgb(189, 192, 192);
+}
+
+.Accesso {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.media {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.video {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.video > iframe {
+    margin-top: 30px;
+}
+
+.video > h1 {
+    margin-left: 35%;
+    font-size: 50px;
+}
+
+.media {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.media > iframe {
+    margin-top: 30px;
+}
+
+.media > h1 {
+    margin-left: 35%;
+    font-size: 50px;
+}
+
+.media > img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.media > .tall1 {
+    height: 100px;
+    padding-bottom: 60px;
+}
+
+.media > .tall2 {
+    height: 100px;
+    padding-bottom: 30px;
+}
+
+.media > .tall3 {
+    height: 120px;
+    padding-bottom: 50px;
+}
+
+footer {
+    height: 350px;
+    background-color: grey;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+footer > .container > .space-footer > h2 {
+    padding-bottom: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.space-footer > a {
+    margin-top: 20px;
+    margin-left: 145px;
+}
+
+.space-footer > h2 {
+    margin-top: 20px;
+    margin-left: 145px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Registrazione {
+    margin-right: 200px;
+    margin-left: 200px;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 300px;
+    height: 700px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.asus-background {
+    background-image: url(https://th.bing.com/th/id/R.340881351e89dfe9497ed0f5ff88a746?rik=nW7RTM%2ffGx%2bxBg&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fasus-hd.jpg&ehk=NIQZYsT7yTyW26ZycgcEv%2bj1GPbYmoMfUYOBz5U8YhA%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+
+.Registrazione > h1 > .Registrazioneh1 {
+    padding-left: 185px;
+    padding-top: 10px;
+}
+
+.Registrazione > h1 > .loginh1 {
+    padding-left: 220px;
+    padding-top: 10px;
+}
+
+.Registrazione > h1 > .fa-user {
+    font-size: 100px;
+    padding-left: 200px;
+    color: white;
+}
+
+.separazione {
+    padding-bottom: 10px;
+}
+
+input {
+    height: 30px;
+    width: 500px;
+}
+
+.white {
+    color: white;
+}
+
+.invia {
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.img-calcolo {
+    padding: 50px;
+    display: flex;
+    margin-right: 50px;
+}
+
+.Risultato {
+    margin-top: 30px;
+}
+
+aside {
+    position: fixed;
+    border: 1px solid white;
+    z-index: 9;
+}
+
+.dropdown1 ul {
+    list-style: none;
+}
+
+.dropdown1 ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown1 ul li a {
+    display: block;
+    position: 20px 25px;
+    color: #ffff;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.dropdown1 ul li ul.dropdown2 li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.dropdown1 ul.dropdown1 li.dropdown1 ul.dropdown2 li.dropdown2:hover {
+    cursor: pointer;
+}
+
+.dropdown1 ul li ul.dropdown2 {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    display: none;
+    padding-right: 30px;
+    border: 1px solid white;
+}
+
+
+.dropdown1 ul li:hover ul.dropdown2 {
+    display: block;
+}
+
+Loreto
+
+Corso Buenosaires, vicino a piazza del Duomo
